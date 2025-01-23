@@ -1,11 +1,3 @@
-const cnicInput = document.getElementById('cnic');
-cnicInput.addEventListener('input', function () {
-    if (this.value.length > 13) {
-        this.value = this.value.slice(0, 13);
-    }
-});
-
-
 
 // const smallBike=document.getElementById("small-div")
 // smallBike.addEventListener('onClick',function(){
@@ -46,7 +38,7 @@ function showSuccessPrompt() {
 }
 
 function redirectToUrl() {
-    window.location.href = "file:///home/wasif/Documents/Wasif_Work/Meezan_Application_completed/Meezan_Application/products.html"; 
+    window.location.href = "https://meezan-app-final.vercel.app/products.html"; 
 }
 //  Functionality to handle Terms and Conditions
 function toggleOrderButton() {
@@ -58,7 +50,7 @@ function toggleOrderButton() {
 // Functionality of the Place Order Button
 function showSuccessPrompt() {
     alert("Items ordered successfully!");
-    window.location.href = "file:///home/wasif/Documents/Wasif_Work/Meezan_Application_completed/Meezan_Application/index.html"; 
+    window.location.href = "https://meezan-app-final.vercel.app"; 
 }
 
 
@@ -72,6 +64,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const chassisInput = document.getElementById("chassis");
     const bookNowButton = document.getElementById("bookNow");
     const buyNowButton = document.getElementById("buyNow");
+
+//     cnicInput.addEventListener('input', function () {
+//     if (this.value.length > 13) {
+//         this.value = this.value.slice(0, 13);
+//     }
+// });
+
 
     // Function to check field states and update buttons
     const updateButtons = () => {
@@ -98,11 +97,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Button click actions
     bookNowButton.addEventListener("click", () => {
         alert("Query completed.");
-        window.location.href="file:///home/wasif/Documents/Wasif_Work/Meezan_Application_completed/Meezan_Application/index.html";
+        window.location.href="https://meezan-app-final.vercel.app";
     });
 
     buyNowButton.addEventListener("click", () => {
-        window.location.href = "file:///home/wasif/Documents/Wasif_Work/Meezan_Application_completed/Meezan_Application/cart.html"; 
+        window.location.href = "https://meezan-app-final.vercel.app/cart.html"; 
     });
 });
 
