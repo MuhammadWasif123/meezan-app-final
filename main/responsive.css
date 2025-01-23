@@ -1,0 +1,7 @@
+/* Responsive Classes */
+.screen-above-1100 {
+    height: auto ;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem;
+    margin-top: 1px;
+}

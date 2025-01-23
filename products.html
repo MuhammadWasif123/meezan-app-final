@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meezan Bank Portal</title>
+
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./main/style.css">
+    <link rel="stylesheet" href="./main/responsive.css">
+</head>
+
+<body>
+    <!-- Top Header Section -->
+    <header class="mx-xl-auto maximum-width">
+        <section class="screen-above-1100 mx-xl-auto maximum-width">
+            <div class="container-fluid">
+                <div class="row flex-display2">
+                    <div
+                        class=" d-flex justify-content-center align-items-center col-lg-3 col-xl-3 col-sm-12 col-md-3 flex-display1">
+                        <div class="logo" id="desktop-logo">
+                            <img src="./assets/Images/meezan-logo.png" height="50" class="meezan-logo"
+                                alt="Meezan-logo" />
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6">
+
+                        <div class="d-flex search-container">
+                            <input type="text" placeholder="Search Products & Brands">
+                            <button type="submit">Search</button>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex justify-content-center col-lg-3 col-xl-3 col-sm-3 col-md-3">
+                        <div class="icon-div">
+                            <i class="bi bi-heart icon"></i>
+                            <i class="bi bi-cart icon"></i>
+                            <i class="bi bi-person icon"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    </header>
+
+    <!-- Navbar Section -->
+    <div class="navbar-style navbar-expand-lg navbar-light  mx-xl-auto maximum-width" id="navbarNav">
+        <ul class="d-flex justify-content-between  navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-item1" href="file:///home/rizwan/Documents/Wasif_Work/Meezan_Application_updated/Meezan_Application_28Sep/Meezan_Application/index.html">HOME</a>
+                <!-- <img src="../imarklandingpage/images/below_line.svg" alt="Error Loading Image" class="below-line"> -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-item1" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item1" href="#">BUSINESS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item1" href="#">Customer Support Center</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Bike Customization Section -->
+
+
+    <div class="bike-customize-outer d-flex align-items-start justify-content-start maximum-width mx-xl-auto">
+        <div class="customize-inner-left col-lg-4">
+            <div class="flex-direction1 d-flex justify-content-start align-items-start gap-1">
+                <img src="./assets/Images/125-right.png" alt="Bike-125" class="bike-big">
+                <div class="d-flex justify-content-center align-items-center gap-1">
+                    <img src="./assets/Images/125-small.png" alt="Bike-red-125" id="small-bike" class="flip-image">
+                    <img src="./assets/Images/125-small.png" alt="Bike-red-125" id="small-bike">
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="customize-inner-middle d-flex justify-content-start col-lg-5">
+            <h3>Honda CG 125 Self - On Installments by
+                Atlas Honda Official</h3>
+            <p>SKU#: MBL_Honda CG125 Self_INST</p>
+            <p>Rs 292,900.00</p>
+
+
+            <div class="color-div d-flex justify-content-start">
+                <h6>color</h6>
+                <div class="d-flex justify-content-start gap-2">
+                    <img src="./assets/Images/black.png" alt="black-color">
+                    <img src="./assets/Images/red.png" alt="red-color">
+                </div>
+            </div>
+
+
+            <div class="d-flex justify-content-start align-items-normal flex-direction1 installment-div mt-2">
+
+                <label for="dog-names">Choose an Installment Plan</label>
+                <select name="installment-dropdown" id="installment-dropdown">
+                    <option value="three-months">3 months</option>
+                    <option value="six-months">6 months</option>
+                    <option value="nine-months">9 months</option>
+                    <option value="twelve-months">12 months</option>
+                </select>
+            </div>
+
+            <div class="cnic-div mt-3">
+                <h5>Estimated Delivery Time: 20 - 25
+                    Working Days</h5>
+
+                <form id="bikeForm" class="cnic-input d-flex justify-content-center align-items-start mt-3">
+                    <label for="cnic">CNIC</label>
+                    <input type="number" id="cnic" name="cnic" class="mt-1" maxlength="13" min="0" required>
+                    <p>Maximum 13 characters</p>
+                
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company" class="mt-1" required>
+                
+                    <label for="employee" class="mt-3">Employee ID</label>
+                    <input type="number" id="employee" name="employee" class="mt-1" required>
+                
+                    <label for="engine" class="mt-3">Engine Number</label>
+                    <input type="text" id="engine" name="engine" class="mt-1">
+                
+                    <label for="chassis" class="mt-3">Chassis Number</label>
+                    <input type="text" id="chassis" name="chassis" class="mt-1">
+                </form>
+
+
+                 <!-- Dynamic Buy Now Button -->
+                <div class="button-container-optional  mt-3">
+                    <button id="bookNow" class="btn book-now" style="display: none;">Book Now</button>
+                    <button id="buyNow" class="btn buy-now" style="display: none;">Buy Now</button>
+                </div>
+
+                <div class="quantity d-flex align-items-center justify-content-start mt-3">
+                    <div class="d-flex justify-content-start align-items-center gap-0 width-39">
+                        <button class="decrease" onclick="decreaseQuantity()">-</button>
+                        <input type="number" id="quantity" value="1" min="1" readonly>
+                        <button class="increase" onclick="increaseQuantity()">+</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="customize-inner-right col-lg-3">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="low-padding table-heading">Month</th>
+                        <th class="low-padding table-heading">Plan</th>
+                        <th class="low-padding table-heading">Monthly Installment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="low-padding">3</td>
+                        <td class="low-padding">1</td>
+                        <td class="amount low-padding">102,515</td>
+                    </tr>
+                    <tr>
+                        <td class="low-padding">6</td>
+                        <td class="low-padding">2</td>
+                        <td class="amount low-padding">53698</td>
+                    </tr>
+                    <tr>
+                        <td class="low-padding">12</td>
+                        <td class="low-padding">3</td>
+                        <td class="amount low-padding">29290</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Product Description Section -->
+    <div class="product-description maximum-width mx-xl-auto pt-4 ">
+        <h6>Product Description</h6>
+        <div class="description-para-div">
+            <p>Engine 4 Stroke 125cc OHV Air Cooled Displacement 124.1 cm3 Bore & Stroke 56.5 x 49.5 mm Compression
+                Ratio 9.0:1 Transmission 5 Speed
+                Constant Mesh Starter Self-Start/Kick Start Final Drive Roller Chain Dimension(LxWxH) 1912 x 727 x 1029
+                mm Seat Height 765 mm Ground
+                Clearance 133 mm Petrol Capacity 9.2 Liters (Reserve: 2 Liters) Wheel Base 1212 mm Tire at Front 2.50 –
+                18 (38P) Tire at Back 3.00 – 17 (50P)
+                Suspension at Front Telescopic Fork 103mm Travel Suspension at Back Swing Arm 70 mm Travel Dry Weight
+                108kg</p>
+
+        </div>
+
+    </div>
+
+    <!-- Related Products Section -->
+    <div class="no-padding-container mx-xl-auto maximum-width related-product-section pt-4">
+
+        <h5>Related Products</h5>
+
+        <div class="row no-gutters width1 gap-small-screen first-margin">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3 mb-3 mb-lg-0">
+                <div class="category-card">
+                    <img src="./assets/Images/bike.png" alt="Bike" class="category-image">
+                    <div class="content-div">
+                        <h4 class="content-heading">Honda CG 125 - On Installments by Atlas Honda Official</h4>
+                        <p class="content-para">Rs 234,900.00</p>
+                    </div>
+                </div>
+                <button class="card-btn">Buy Now Pay Later</button>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3 mb-3  mb-lg-0">
+                <div class="category-card">
+                    <img src="./assets/Images/bike.png" alt="Bike" class="category-image">
+                    <div class="content-div">
+                        <h4 class="content-heading">Honda CG 125 - On Installments by Atlas Honda Official</h4>
+                        <p class="content-para">Rs 234,900.00</p>
+                    </div>
+                </div>
+                <button class="card-btn">Buy Now Pay Later</button>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3  mb-3  mb-lg-0">
+                <div class="category-card">
+                    <img src="./assets/Images/bike.png" alt="Bike" class="category-image">
+                    <div class="content-div">
+                        <h4 class="content-heading">Honda CG 125 - On Installments by Atlas Honda Official</h4>
+                        <p class="content-para">Rs 234,900.00</p>
+                    </div>
+                </div>
+                <button class="card-btn">Buy Now Pay Later</button>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3 mb-3  mb-lg-0">
+                <div class="category-card">
+                    <img src="./assets/Images/bike.png" alt="Bike" class="category-image">
+                    <div class="content-div">
+                        <h4 class="content-heading">Honda CG 125 - On Installments by Atlas Honda Official</h4>
+                        <p class="content-para">Rs 234,900.00</p>
+                    </div>
+                </div>
+                <button class="card-btn">Buy Now Pay Later</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Banner Section -->
+    <div class="banner-section maximum-width mx-xl-auto">
+        <img src="./assets/Images/banner.png" alt="customer-relation" class="customer-relation">
+    </div>
+
+    <!-- Service Desk Section -->
+    <div class="d-flex justify-content-center align-items-center mt-4 service-section mx-xl-auto maximum-width">
+        <h3 class="service-heading mt-4">Service Desk-Click Me</h3>
+        <div class="service-section-inner mt-4 ">
+            <img src="./assets/Images/secp.png" alt="SECP" class="service-img1">
+            <img src="./assets/Images/toll.png" alt="Toll" class="service-img2">
+            <img src="./assets/Images/complaint.png" alt="Complaint" class="service-img3">
+            <img src="./assets/Images/queries.png" alt="Queries" class="service-img4">
+
+        </div>
+
+    </div>
+
+      <!-- Footer Links Section -->
+      <div class="d-flex footer-link-section mt-4 mx-xl-auto maximum-width">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-link-outer">
+            <div class="footer-link-inner">
+                <a href="/" class="location-icon">
+                    <img src="./assets/Images/location.png" alt="Location">
+                </a>
+                <a href="/" class="location-text">Locate a Branch</a>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-link-outer">
+            <div class="footer-link-inner">
+                <a href="/" class="location-icon">
+                    <img src="./assets/Images/phone.png" alt="Contact">
+                </a>
+                <a href="/" class="location-text">Contact Us</a>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-link-outer">
+            <div class="footer-link-inner">
+                <a href="/" class="location-icon">
+                    <img src="./assets/Images/career.png" alt="Career">
+                </a>
+                <a href="/" class="location-text">Careers</a>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-link-outer">
+            <div class="footer-link-inner">
+                <a href="/" class="location-icon">
+                    <img src="./assets/Images/relation.png" alt="Investor-Relation">
+                </a>
+                <a href="/" class="location-text">Investor Relation</a>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Footer Last Section -->
+    <div class="mx-xl-auto maximum-width footer-section">
+        <div class="footer-inner col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 footer-inner1">
+                <h3 class="footer-section-heading">Media Centre</h3>
+
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">News & Press Releases</a></li>
+                    <li><a href="/" class="footer-anchor">Notices & Announcements</a></li>
+                    <li><a href="/" class="footer-anchor">Financial Results</a></li>
+                    <li><a href="/" class="footer-anchor">PAGES, The Meezan Newsletter</a></li>
+                </ul>
+                <h3 class="footer-section-heading">Knowledge Centre</h3>
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Publications</a></li>
+                    <li><a href="/" class="footer-anchor">Glossary of Terms</a></li>
+                    <li><a href="/" class="footer-anchor">IIIB</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 footer-inner1">
+                <h3 class="footer-section-heading">Personal Banking</h3>
+
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Bank Accounts</a></li>
+                    <li><a href="/" class="footer-anchor">Term Deposits</a></li>
+                    <li><a href="/" class="footer-anchor">Consumer Finance</a></li>
+                    <li><a href="/" class="footer-anchor">Home Remittance</a></li>
+                    <li><a href="/" class="footer-anchor">Premium Banking</a></li>
+                </ul>
+                <h3 class="footer-section-heading">Branch Network</h3>
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Branches with Ramps</a></li>
+                    <li><a href="/" class="footer-anchor">FX Authorized Branches</a></li>
+                    <li><a href="/" class="footer-anchor">Saturday On Branches</a></li>
+                    <li><a href="/" class="footer-anchor">Off-Site ATMs</a></li>
+                    <li><a href="/" class="footer-anchor">SameDay Clearing Branches</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 footer-inner1">
+                <h3 class="footer-section-heading">Business Banking</h3>
+
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Small Business</a></li>
+                    <li><a href="/" class="footer-anchor">Corporate Banking</a></li>
+                    <li><a href="/" class="footer-anchor">Islamic Advisory Services</a></li>
+                    <li><a href="/" class="footer-anchor">Agricultural Finance</a></li>
+                    <li><a href="/" class="footer-anchor">Correspondent Banking</a></li>
+                    <li><a href="/" class="footer-anchor">Asset Management</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 footer-inner1">
+                <h3 class="footer-section-heading">About Us</h3>
+
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Corporate Profile</a></li>
+                    <li><a href="/" class="footer-anchor">Corporate Social Responsibility</a></li>
+                    <li><a href="/" class="footer-anchor">Code of Conduct</a></li>
+                    <li><a href="/" class="footer-anchor">Policy Excerpts</a></li>
+                </ul>
+                <h3 class="footer-section-heading">Investor Relations</h3>
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Financial Information</a></li>
+                    <li><a href="/" class="footer-anchor">Investor Information</a></li>
+                    <li><a href="/" class="footer-anchor">Contact Information</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 footer-inner1">
+                <h3 class="footer-section-heading">Downloads</h3>
+
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Public Awareness Notices from SBP & PBA</a></li>
+                    <li><a href="/" class="footer-anchor">Schedule of Charges</a></li>
+                    <li><a href="/" class="footer-anchor">Key Fact Statements</a></li>
+                    <li><a href="/" class="footer-anchor">Profit Rates</a></li>
+                    <li><a href="/" class="footer-anchor">Foreign Exchange Rates</a></li>
+                    <li><a href="/" class="footer-anchor">Foreign Remittance Rates</a></li>
+                    <li><a href="/" class="footer-anchor">NOSTROS</a></li>
+                    <li><a href="/" class="footer-anchor">NIFT Clearing Timings</a></li>
+                    <li><a href="/" class="footer-anchor">Premature Encashment Schedule</a></li>
+                    <li><a href="/" class="footer-anchor">Show More</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 footer-inner1">
+                <h3 class="footer-section-heading">Registered / Head Office</h3>
+
+                <ul class="list-style">
+                    <li><a href="/" class="footer-anchor">Meezan House, C-25 Estate Avenue, SITE,Karachi.</a></li>
+                    <li><a href="/" class="footer-anchor-flex"> <img src="./assets/Images/message.png" alt="Message">
+                            info@meezanbank.com</a></li>
+                    <li><a href="/" class="footer-anchor">complaints@meezanbank.com</a></li>
+                    <div class="d-flex justify-content-start align-items-center gap-1">
+
+                        <img src="./assets/Images/call.png" alt="Call" class="mb-2">
+                        <div>
+                            <li><a href="/" class="footer-anchor">+92 21 111 331 331</a></li>
+                            <li><a href="/" class="footer-anchor">+92 21 111 331 332</a></li>
+                        </div>
+                    </div>
+                    <div class="logo-outer">
+                        <h5 class="connect-heading">Connect With Us</h5>
+                        <div class="logo-inner">
+                            <img src="./assets/Images/youtube.svg" alt="Youtube">
+                            <img src="./assets/Images/linkedin.svg" alt="Linkedin">
+                            <img src="./assets/Images/twitter.svg" alt="Twitter">
+                            <img src="./assets/Images/facebook.svg" alt="Facebook">
+                            <img src="./assets/Images/instagram.svg" alt="Instagram">
+                        </div>
+
+                    </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./main/custom.js"></script>
+</body>
+
+</html>
